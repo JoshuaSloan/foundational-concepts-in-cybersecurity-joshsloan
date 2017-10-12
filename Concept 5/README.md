@@ -1,4 +1,4 @@
-Principle 5
+# Concept 5
 
 Example, the program makes sure that the variable will not be overloaded from input and will adjust the variable type according to user input.
 
