@@ -18,7 +18,7 @@ This example provides resource encapsulation through the SuperStack class. Neith
 
 In the bad example, all of the stacks are global variables in the cpp file. This means that at any time they are available for the user to modify, should they find a way to do that.
 
-![alt text](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-joshsloan/blob/master/Concepts%23-7-8-9/resource_encapsulation.jpg)
+![alt text](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-joshsloan/blob/master/Concepts 3-7-8-9/resource_encapsulation.jpg)
 
 # Abstraction:
 
