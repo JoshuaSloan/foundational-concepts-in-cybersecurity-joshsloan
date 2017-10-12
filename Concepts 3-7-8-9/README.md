@@ -18,7 +18,7 @@ This example provides resource encapsulation through the SuperStack class. Neith
 
 In the bad example, all of the stacks are global variables in the cpp file. This means that at any time they are available for the user to modify, should they find a way to do that.
 
-*insert image here*
+![alt text](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-joshsloan/blob/master/Concepts%23-7-8-9/resource_encapsulation.jpg)
 
 # Abstraction:
 
@@ -26,7 +26,7 @@ Abstraction can also be seen in the SuperStack class. The idea of a "super stack
 
 In the non-example, every operation shows you EXACTLY how this is done using two stacks. It is no longer a single SuperStack performing a task, but just two seprate stacks doing their own thing in a way that can achieve the intended functionality.
 
-*insert image here*
+![alt text](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-joshsloan/blob/master/Concept%205/nofit.jpg)
 
 # Data Hiding:
 
@@ -34,7 +34,7 @@ Because the stacks can be found in the private SuperStack field, the data is wel
 
 Again, in the non-example all of the stacks are global. There is nothing stopping someone from simply manipulating the stack data as they see fit. I think this would be better illistrated if perhaps certain SuperStack operations require certain permissions (perhaps there is some extensibility for future concepts in this example...). In this case, the non-example would even more clearly demonstrate why you do not want data storage being global!
 
-*insert image here*
+![alt text](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-joshsloan/blob/master/Concept%205/nofit.jpg)
 
 # Simplicity:
 
@@ -42,7 +42,7 @@ This is probably the weakest argument I felt was worth including. I could have t
 
 The same cannot be said for the non-example. While I still only allow the user to perform one action at a time (part of the reason why I felt this was not as strong of an argument as the other 3 principles), the code that goes into the actions performed is much more complicated. You see the entire method in the SuperStack class essetially copy and pasted 3 times, with some minor stack variable name changes. This creates the problem of adding even more potentially vunerable points, as well as making them harder to spot and fix.
 
-*insert image here*
+![alt text](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-joshsloan/blob/master/Concept%205/nofit.jpg)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
