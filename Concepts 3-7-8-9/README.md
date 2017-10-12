@@ -20,6 +20,8 @@ In the bad example, all of the stacks are global variables in the cpp file. This
 
 ![alt text](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-joshsloan/blob/master/Concepts%203-7-8-9/resource_encapsulation.jpg)
 
+_This illustrates the concept of resource encapsulation because the user (employee) is free to do whatever they want with the data (on the job work) as long as they follow the classes (bosses) methods of performing that task._
+
 # Abstraction:
 
 Abstraction can also be seen in the SuperStack class. The idea of a "super stack" is just that, a stack which is capable of performing a task that a traditional task could not (i.e. find min value in constant, O(1) time). This removed the clutter of exactly how you would do that from the user, so that all they know is that they are going to find the minimum value, without the unecessary detail of how it works.
@@ -27,6 +29,8 @@ Abstraction can also be seen in the SuperStack class. The idea of a "super stack
 In the non-example, every operation shows you EXACTLY how this is done using two stacks. It is no longer a single SuperStack performing a task, but just two seprate stacks doing their own thing in a way that can achieve the intended functionality.
 
 ![alt text](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-joshsloan/blob/master/Concepts%203-7-8-9/abstraction.jpg)
+
+_This illustrates the concept of abstraction because it is a bunch of separate pieces that each perform their own separate task well, coming together to create a complete working piece. As this pertains to the example, the SuperStack is one of these pieces, capable of performing the necessary data operations (push, pop and min) very well, but not being able to do anything else besides this._
 
 # Data Hiding:
 
@@ -36,6 +40,8 @@ Again, in the non-example all of the stacks are global. There is nothing stoppin
 
 ![alt text](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-joshsloan/blob/master/Concepts%203-7-8-9/data_hiding.jpg)
 
+_Not trying to get political, but this image illustrates data hiding well. In this case the user "has access" to the data... but not really since they are privately hidden within the SuperStack class._
+
 # Simplicity:
 
 This is probably the weakest argument I felt was worth including. I could have tried to push more principles out of the example in its current version, but felt as though I could better illistrate those principles separately as I still have time for the remaining concepts not already covered. **Anyways**, I provide the user with a very simple method of interacting with the SuperStack using i/o. I do not let them perform more than a single task at a time, such that they could get themselves into trouble. Not to mention, all methods are very concise in the example and it is clear what is happening. Should a vunerability present itself, it would be very easy to figure out where they were able to access the private stack data.
@@ -44,6 +50,8 @@ The same cannot be said for the non-example. While I still only allow the user t
 
 ![alt text](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-joshsloan/blob/master/Concepts%203-7-8-9/simplicity.jpg)
 
+_I believe this image is self-explanitory._
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-_Conclusion: While I can imagine I could have been able to stretch the example to show further security concepts, I am better off either further modifying the existing code or creating new examples altogether. I certainly can say that the current example AND non-example are horrible representations of minimization, as I do nothing to delete either the un-used SuperStack or stack data structures after the user selects the data type they would like to use. I did not dynamically create the structures. Rather, I simply created them all at compile time, and then let them use which ever they select during run time._
+Conclusion: While I can imagine I could have been able to stretch the example to show further security concepts, I am better off either further modifying the existing code or creating new examples altogether. I certainly can say that the current example AND non-example are horrible representations of minimization, as I do nothing to delete either the un-used SuperStack or stack data structures after the user selects the data type they would like to use. I did not dynamically create the structures. Rather, I simply created them all at compile time, and then let them use which ever they select during run time.
