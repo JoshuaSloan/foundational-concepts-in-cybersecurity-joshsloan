@@ -12,7 +12,7 @@ To achieve this, I created a class which I named a SuperStack, which is really j
 
 Because this example covers 4 security concepts in one, I will go into depth about how these concepts are covered in the example and where they fail in the non-example individually below:
 
-# Resource Encapsulation:
+# Concept 3 (Resource Encapsulation):
 
 This example provides resource encapsulation through the SuperStack class. Neither of the stacks are directly accessable by the user. The only way to interact with the stacks, is by using the SuperStack methods. In other words, the resources (i.e. stacks) and encapsulated by the SuperStack class.
 
@@ -22,7 +22,7 @@ In the bad example, all of the stacks are global variables in the cpp file. This
 
 _This illustrates the concept of resource encapsulation because the user (employee) is free to do whatever they want with the data (on the job work) as long as they follow the classes (bosses) methods of performing that task._
 
-# Abstraction:
+# Concept 7 (Abstraction):
 
 Abstraction can also be seen in the SuperStack class. The idea of a "super stack" is just that, a stack which is capable of performing a task that a traditional task could not (i.e. find min value in constant, O(1) time). This removed the clutter of exactly how you would do that from the user, so that all they know is that they are going to find the minimum value, without the unecessary detail of how it works.
 
@@ -32,7 +32,7 @@ In the non-example, every operation shows you EXACTLY how this is done using two
 
 _This illustrates the concept of abstraction because it is a bunch of separate pieces that each perform their own separate task well, coming together to create a complete working piece. As this pertains to the example, the SuperStack is one of these pieces, capable of performing the necessary data operations (push, pop and min) very well, but not being able to do anything else besides this._
 
-# Data Hiding:
+# Concept 8 (Data Hiding):
 
 Because the stacks can be found in the private SuperStack field, the data is well hidden from the user. They are not able to directly access the information contained within the stacks. While this example may seem trivial of why you may not want people to have access to the data, pretend that the data being stored in the super stack is highly confidential (although then pop and min may not be great user options). Because the stack data is protected by the SuperStack class, they could not access the data unless they found a way around the only direct channel given to maipulate the stack data.
 
@@ -42,7 +42,7 @@ Again, in the non-example all of the stacks are global. There is nothing stoppin
 
 _Not trying to get political, but this image illustrates data hiding well. In this case the user "has access" to the data... but not really since they are privately hidden within the SuperStack class._
 
-# Simplicity:
+# Concept 9 (Simplicity):
 
 This is probably the weakest argument I felt was worth including. I could have tried to push more principles out of the example in its current version, but felt as though I could better illustrate those principles separately, as I still have time for the remaining concepts not already covered. _**Anyways...**_ I provide the user with a very simple method of interacting with the SuperStack using i/o. I do not let them perform more than a single task at a time, such that they could get themselves into trouble. Not to mention, all methods are very concise in the example and it is clear what is happening. Should a vunerability present itself, it would be very easy to figure out where they were able to access the private stack data.
 
