@@ -1,4 +1,5 @@
 CC=g++
+CFLAGS=-c
 
 all: ex1 nonEx1 ex5 nonEx5 ex3_7_8_9 nonEx3_7_8_9
 
