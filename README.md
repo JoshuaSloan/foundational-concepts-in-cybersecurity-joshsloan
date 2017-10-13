@@ -11,3 +11,5 @@ In the next part of the assignment, we will cover the reamining concepts in the 
 
 Each concept will have its own subdirectory, unless multiple concepts are being covered using a single example _(which we were told in class we were allowed to do)_.
 
+**NOTE:** _Makefile is unix based. I can at least guarentee it worked on my virtual ubuntu machine._
+
