@@ -2,7 +2,7 @@
 
 As stated in class, we would have the option to incorperate multiple security principles into a single example if we chose to do so. This example serves to cover 4 of the 10 security concepts, namely: resource encapsulation, abstraction, data hiding and simplicity.
 
-I chose to try to tackle the principles this way to get the most out of the class. I am taking this class as a means to help better protect the software I write. Therefore, I believe it would be more beneficial to apply the concepts to a concrete example (even though this is not a great example of a useful program) rather than arbitrary code for the sake of showing how the principles work. It also helped that there is a lot of overlap between the principles, and by applying certain coding strategies you can ensure you are following multiple security principles.
+I chose to try to tackle the concepts this way to get the most out of the class. I am taking this class as a means to help better protect the software I write. Therefore, I believe it would be more beneficial to apply the concepts to a concrete example (even though this is not a great example of a useful program) rather than arbitrary code for the sake of showing how the concepts work. It also helped that there is a lot of overlap between the concepts, and by applying certain coding strategies you can ensure you are following multiple security concepts.
 
 First, it is important to understand what the example actually does before we can discuss the application of the security concepts that can be found within. I took the idea from an Algorithms and Data Structures project I worked on. This project aims to provide a solution to the following problem:
 
