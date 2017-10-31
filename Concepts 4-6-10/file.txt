@@ -1,0 +1,1 @@
+This is a file which should only be able to be read by the admin/users, and written to by the admin. Hello from the admin!
