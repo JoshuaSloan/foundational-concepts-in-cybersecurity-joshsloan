@@ -1,6 +1,3 @@
-//Ryan Cook
-//Lab4
-
 #include <cstdio> //needed for perror, and printf
 #include <pthread.h>
 #include <cstdlib> //needed for rand(), srand(), and exit() 
