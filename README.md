@@ -22,7 +22,7 @@ For the first part of this assignment, we covered: Domain Separation, Resource E
 
 In the second part of the assignment, we covered the reamining concepts (i.e. Process Isolation, Least Privilege, Layering (x2) and Minimization).
 
-The concept of layering was covered twice, as both of the examples that we made include layering through a required password.
+The concept of layering was covered twice, as both of the examples that we made include layering through a required password before proceeding with the rest of the functionality of the example.
 
 Each concept has its own subdirectory, unless multiple concepts are being covered using a single example _(which we were told in class we were allowed to do)_.
 
