@@ -1,8 +1,8 @@
 # Concept 2 and 6
 
-Example shows how you can keep processes isolated by using semaphores to lock shared memory, so no two processes can be accessing the memory at the same time. This is also password protected in that the program cannot be run without the correct password.
+Example shows how you can keep processes isolated by using semaphores to lock shared memory, so no two processes can be accessing the memory at the same time. This is also password protected in that the program cannot be run without the correct password. When performed correctly there should only be 10 resources at the end.
 
-Nonexample, this shows that the memory can be accessed at the same time by multiple threads and manipulate memory wrongly even though the check looks like it will work and without a password the program can be run by anyone.
+Nonexample, this shows that the memory can be accessed at the same time by multiple threads and manipulate memory wrongly even though the check looks like it will work and without a password the program can be run by anyone. At the end there are multiple more resources than what were originally there due to improper memory access.
 
 ![alt text](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-joshsloan/blob/master/Concepts%202-6/processIso.png)
 
