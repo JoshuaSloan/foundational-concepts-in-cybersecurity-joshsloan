@@ -27,4 +27,5 @@ The concept of layering was covered twice, as both of the examples that we made 
 Each concept has its own subdirectory, unless multiple concepts are being covered using a single example _(which we were told in class we were allowed to do)_.
 
 **NOTE:** _Makefile is unix based. I can at least guarentee it worked on my virtual ubuntu machine._
+_Additionally, the makefile only worked when I used -pthread for example2_6 and non_example 2_6, even though it originally compiled with -lpthread. This shouldn't be a problem, but in case the makefile starts acting up, that could be the source of the problem._
 
